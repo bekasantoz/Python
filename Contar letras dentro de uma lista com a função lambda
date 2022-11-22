@@ -1,0 +1,7 @@
+equipes = ['BerthaLutz', 'GraceHopper', 'JaquelineGoes', 'SarahGilbert']
+equipe1 =(sum(map(lambda x: 1 if 'a' in x else 0, equipes[0])))
+equipe2 =(sum(map(lambda x: 1 if 'a' in x else 0, equipes[1])))
+equipe3 =(sum(map(lambda x: 1 if 'a' in x else 0, equipes[2])))
+equipe4 = (sum(map(lambda x: 1 if 'a' in x else 0, equipes[3])))
+
+print("[", equipe1,",", equipe2, ",",equipe3,",", equipe4,"]")
